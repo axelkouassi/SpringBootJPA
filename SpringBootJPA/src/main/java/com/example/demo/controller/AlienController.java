@@ -47,7 +47,7 @@ public class AlienController {
 			
 	}
 	
-	@RequestMapping("/alien/{aid}")
+	@RequestMapping(path="/alien/{aid}", produces= {"application/xml"})
 	@ResponseBody
 	public Optional<Alien> getAlien(@PathVariable("aid")int aid) {
 		
