@@ -8,9 +8,17 @@
 </head>
 <h1>Spring Boot JPA</h1>
 <body>
+   <h2>Input Form</h2>
    <form action="addAlien">
        <input type="text" name="aid"><br>
        <input type="text" name="aname"><br>
+       <input type="text" name="tech"><br>
+       <input type="submit"><br>
+   </form>
+   
+   <h2>Getter Form</h2>
+   <form action="getAlien">
+       <input type="text" name="aid"><br>
        <input type="submit">
    </form>
 </body>
